@@ -49,8 +49,9 @@ indexTasks(function (response) {
   }
 });
 
-$('#addButton').on('click', function (event) {
-  event.preventDefault();
+$('#new-task-form').on('submit', function (event) {
+  if (event) { event.preventDefault(); }
+  console.log('add clicked');
   var newItem = $('#todoInput').val();
   console.log(newItem);
   if (newItem) {

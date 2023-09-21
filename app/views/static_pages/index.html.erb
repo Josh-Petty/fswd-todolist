@@ -1,10 +1,42 @@
 <%= javascript_pack_tag 'index', 'data-turbolinks-track': 'reload' %>
 
 <div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h1 class="text-center mt-4">To Do List</h1>
-      <div class="row" id="tasks"></div>
+      <div class="row justify-content-center">
+        <div class="col-xs-12 col-md-10 text-center">
+          <h1 id="title">To-do List</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xs-12 col-md-8">
+          <div class="todo-container">
+            <div class="add-section">
+              <form class="row">
+                <div class="col-10">
+                  <input type="text" class="form-control form-control-lg" id="todoInput" placeholder="Add New Item"/>
+                </div>
+                <div class="col-2">
+                  <button id="addButton" type="submit" class="btn btn-primary btn-lg add-button">Add Item</button>
+                </div>
+              </form>
+            </div>
+            <hr/>
+            <div class="list-header-section">
+              <div class="row">
+                <div class="col-8 my-auto">
+                  <p class="mb-0"><span class="mx-2" id="numItems">0</span>Items</p>
+                </div>
+                <div class="col-4">
+                  <div class="filters text-end">
+                    <p class="d-inline-flex gap-1 mb-0">
+                      <button id="all" type="button" class="btn active" data-bs-toggle="button">All</button>
+                      <button id="active" type="button" class="btn" data-bs-toggle="button">Active</button>
+                      <button id="completed" type="button" class="btn" data-bs-toggle="button">Completed</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>

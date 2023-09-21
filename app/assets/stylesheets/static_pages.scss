@@ -1,3 +1,83 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.static_pages.index {
+  background-color: #67FEE0;
+  color: #888;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  
+}
+
+#title {
+  font-size: 72px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: #ff6786;
+  
+}
+
+.todo-container {
+  background-color: #efefef;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.add-section {
+  padding: 10px;
+}
+
+#addButton {
+  background-color: #67B8FE;
+}
+
+#addButton:hover {
+  background-color: #45a5f7;
+}
+
+hr {
+  margin: 0;
+}
+
+.list-header-section {
+  padding: 10px;
+}
+
+.filters button {
+  color: #888;
+}
+
+.filters button:hover {
+  background-color: rgba(161, 166, 173, .2);
+}
+
+table {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th {
+  color: #ff6786;
+}
+
+td {
+  padding-bottom: 6px;
+}
+
+td .btn, td .checkbox {
+  border: 1px solid #ff6786;
+}
+
+td .checkbox:hover, td .btn:hover {
+  background-color: #45a5f7;
+}
+
+td .checkbox:checked {
+  background-color: #67B8FE
+}
+
+.itemDescription {
+  padding-left: 40px;
+}

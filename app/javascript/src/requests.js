@@ -29,5 +29,6 @@ export var postTask = function (content, successCB, errorCB) {
     success: successCB,
     error: errorCB
   }
+
   $.ajax(request);
 };

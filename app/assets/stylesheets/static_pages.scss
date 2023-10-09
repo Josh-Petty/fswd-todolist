@@ -46,10 +46,25 @@ hr {
 
 .filters button {
   color: #888;
+  background: transparent;
+  border: none;
 }
 
 .filters button:hover {
   background-color: rgba(161, 166, 173, .2);
+}
+
+.filters .btn-primary.active {
+  background-color: transparent;
+  color: #888;
+  border: none;
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5)
+}
+
+.filters .btn-primary.active:focus, .filters .bnt-primary, .filters .btn-primary:focus {
+  background: transparent;
+  color: #888;
+  border: none;
 }
 
 table {

@@ -3802,9 +3802,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.535":
-  version: 1.4.545
-  resolution: "electron-to-chromium@npm:1.4.545"
-  checksum: ab420d982b7a357302c3ee86020f908d72f44a1e47b3e8cf8c7716c7b521c11c73ce43ce10d75871f3aca3ff467059847052079dbdcc66b11a225f45bfc2edf4
+  version: 1.4.547
+  resolution: "electron-to-chromium@npm:1.4.547"
+  checksum: 265fa8631c1ae3c07acf93beedda4f35b4f41f7a85098ffb957271e0674f4c24fa3c265b1e707fd0a5a550762d181c0b3f9ee7eee670b587794f32b82ed7df85
   languageName: node
   linkType: hard
 
@@ -8608,15 +8608,15 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.38.0":
-  version: 1.69.0
-  resolution: "sass@npm:1.69.0"
+  version: 1.69.1
+  resolution: "sass@npm:1.69.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: eabea31ea3b1dd529c7eff345c8b6468afe6ab8011bd4f95caa2cffb8fb115cc055ea21de425be6197f7ed22516f5652eccb98d315d592ea152ada553f964b8a
+  checksum: e3f0754fc8e1ffc239919cba8d1cc8d89908d596161992c562d0679a6aa1e1c57b0a11846726f9222f96622495a5bfc00461b3f31182e71a54ad91a86dd10a8f
   languageName: node
   linkType: hard
 

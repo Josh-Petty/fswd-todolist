@@ -86,16 +86,14 @@ $(document).ready(() => {
     var newItem = $('#todoInput').val();
     console.log(newItem);
     if (newItem) {
-      postTask(newItem);
+      postTask(newItem, function () { listTasks(filter); });
     }
     $('#todoInput').val('');
-    listTasks(filter);
   });
 
   $('#list-contents').on('click', '.delete', function (event) {
     var id = $(this).attr('id');
-    deleteTask(id);
-    listTasks(filter);
+    deleteTask(id, function () { listTasks(filter); });
   });
 
   $('#list-contents').on('click', '.checkbox', function (event) {
